@@ -18,7 +18,7 @@ def calcular_descuento(precio_base, edad_del_cliente, es_miembro):
     return precio_final
 
 def hacer_factura(nombre, total, ubicacion):
-    impuesto = 0.21 # Ejemplo: 21% de IVA
+    impuesto = 0.21 
     total_con_impuesto = total * (1 + impuesto)
 
     print("--- FACTURA ----------")
